@@ -19,10 +19,16 @@ Crie um código-fonte em C, utilizando somente #pragma omp parallel para encontr
 
 - o elemento a ser buscado deve ser recebido na linha de comando e também o nome do arquivo de busca (vou usar os arquivos de exemplo).
 
-- o programa deve retornar unicamente a posição do elemento no vetor; *não use nenhum outro printf no seu código, apenas a posição do elemento ou -1 caso não seja encontrado*
+- o programa deve retornar unicamente a posição do elemento no vetor; **não use nenhum outro printf no seu código, apenas a posição do elemento ou -1 caso não seja encontrado**
 
-Vou usar compilação e execução automática do código
+Vou usar compilação e execução automática do código; seu programa será executado como segue:
 
+```
+$ gcc -o busca busca.c -fopenmp
+$ ./busca <elemento> vetor1.txt
+  <posição>
+$
+```
 
 Ao final, imprima a posição do elemento encontrado.
 
