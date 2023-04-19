@@ -15,6 +15,13 @@ Crie um código-fonte em C, utilizando somente #pragma omp parallel para encontr
 
 - para testar a lógica do seu algoritmo, faça testes em vetores de tamanho pequenos.
 
+- *o nome do seu programa deve ser:*  `busca.c`
+
+- o elemento a ser buscado deve ser recebido na linha de comando e também o nome do arquivo de busca (vou usar os arquivos de exemplo).
+
+- o programa deve retornar unicamente a posição do elemento no vetor; *não use nenhum outro printf no seu código, apenas a posição do elemento ou -1 caso não seja encontrado*
+
+Vou usar compilação e execução automática do código
 
 
 Ao final, imprima a posição do elemento encontrado.
