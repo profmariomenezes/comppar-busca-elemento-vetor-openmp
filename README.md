@@ -1,13 +1,13 @@
 # comppar-busca-elemento-vetor-openmp
 Busca paralela com OpenMP
 
-Crie um código-fonte em C, utilizando somente #pragma omp parallel para encontrar um elemento em um vetor de tamanho de 2^16. Para isso:
+Crie um código-fonte em C, utilizando somente `#pragma omp parallel` para encontrar um elemento em um vetor de tamanho de 2^16. Para isso:
 
 - garanta que os elementos no vetor sejam únicos
 
 - faça a busca em um elemento que realmente exista
 
-- utilize as primitiva omp_get_num_threads(), omp_get_max_threads() e omp_get_thread_num()
+- utilize as primitiva `omp_get_num_threads()`, `omp_get_max_threads()` e `omp_get_thread_num()`
 
 - compile preferencialmente sem a opção -O2
 
